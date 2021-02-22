@@ -44,7 +44,7 @@ Una mobile app per l'utente finale (*holder*) per il completo controllo delle pr
 ### Dizme API
 Le API abilitanto i partecipanti ad interagire con i wallet per emettere e verificare Verifiable Credential secondo le esigenze a cui la Soluzione proposta si riferisce.
 > *Dizme API sono pubblicate su [Dizme Developer Portal](https://www.dizme.io/developers)*; 
-> *[Reference implementation](generic-organization/README.md)*
+> *[Reference implementation](https://github.com/dizme/Foundation/tree/main/generic-organization)*
 
 ### Identity Verifiable Credentials
 Verifiable Credentials per accelerare lo sviluppo delle Soluzioni sono disponibili all'interno del wallet per la verifica dell'identità di una persona fisica tramite selfie, liveness detection, riconoscimento documenti di identità, autenticazione SPID e autenticazione bancaria.
