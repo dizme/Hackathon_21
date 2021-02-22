@@ -1,0 +1,1 @@
+celery -A generic_organization worker -Q generic_organization -n "worker.generic_organization@%h" -l info --concurrency=4 --without-gossip

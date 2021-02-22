@@ -1,0 +1,30 @@
+#!/bin/bash
+set -e
+
+FILE_NAME=".init"
+c_pwd=$(pwd)
+
+if [ -z "$1" ] || [ "$1" != "NO_INIT" ]; then
+    if [ ! -f $c_pwd/$FILE_NAME ]; then
+        sleep 10
+
+        cd $c_pwd
+        bash -c "python3 manage.py makemigrations && python3 manage.py migrate"
+
+        touch $c_pwd/$FILE_NAME
+    else
+        echo ">>>>>>>>>>>>>>>>>>>> ORGANIZATION setup already executed"
+    fi
+else
+        cd $c_pwd
+        bash -c  "python3 manage.py makemigrations && python3 manage.py migrate --fake-initial"
+     echo ">>>>>>>>>>>>>>>>>>>> ORGANIZATION NO_INIT"
+fi
+
+cd $c_pwd
+python3 manage.py runserver 0.0.0.0:8015 &
+
+celery -A generic_organization worker -Q generic_organization -n "worker.generic_organization@%h" -l info --concurrency=4 --without-gossip &
+
+wait
+

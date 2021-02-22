@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  generic-organization:
+    image: gitlab.etuitus.it:4567/tin/generic-organization:latest_dev
+    build: .
+    command: >
+      bash init_system INIT
+    volumes:
+    - .:/code
+    ports:
+    - "8015:8015"
+    env_file:
+    - generic_organization_conf.env
+    networks:
+    - pool_network
+networks:
+   pool_network:

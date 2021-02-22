@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  organization_db:
+    image: postgres:11
+    container_name: organization_postgres
+    environment:
+      POSTGRES_PASSWORD: organization_db_password
+    command: postgres -c 'shared_buffers=256MB' -c 'max_connections=100' -c 'work_mem=64MB'
+    volumes:
+      - org-db-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      pool_network:
+
+  organization-redis:
+    image: redis
+    container_name: organization_redis
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    networks:
+      - pool_network
+    volumes:
+      - org-redis-data:/data
+
+networks:
+   pool_network:
+
+
+volumes:
+  org-redis-data:
+  org-db-data:
