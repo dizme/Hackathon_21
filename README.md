@@ -26,7 +26,7 @@ Definite sui ruoli di identità di una persona o un’organizzazione
 |Citizen G2C|Consumer B2C|Learner/Worker B2E |Asset owner B2T|Legal Identity owner B2B
 |-----------|------------|-------------------|---------------|------------------------
 |Emergenza Covid19: Certificazione esito test; Certificazione stato vaccinale; Consenso informato; Verifica anonima di esiti/stati|One click on-onboarding: no-integration; interazione multi-canale; Programma di affiliazione|Certificazione skill e competenze: Integrazione VC – OpenBadge; Pubblicazione profili su registro online |Gestione manutenzioni e ispezioni: Certificazione tecnici abilitati; Certificazione data-ora e geolocalizzazione |Contract Management:Integrazione business information; Esecuzione automatica del processo
-|xx |Ottimizzazione processo KYC/AML: verifiche automatiche; Riuso attraversi condivisione credenziali certificate |Integrazione sistemi di autenticazione| Provisioning IOT: Certificazione proprietà; Pairing e accesso controllato |Voto assembleare: Segreto vs palese; Scrutinio pubblico, certificazione evidenze di voto
+|Gare pubbliche e concorsi: trasparenza e valutazione requisiti partecipanti |Ottimizzazione processo KYC/AML: verifiche automatiche; Riuso attraversi condivisione credenziali certificate |Integrazione sistemi di autenticazione| Provisioning IOT: Certificazione proprietà; Pairing e accesso controllato |Voto assembleare: Segreto vs palese; Scrutinio pubblico, certificazione evidenze di voto
 |xx |Certificazione reddituale: Numero telefonico; Busta paga, dichiarazione dei redditi |Innovazione processi di check-in| xx | xx
 |xx |Sottoscrizione remota contratti: verifica identità	| xx |xx | xx
 |xx |Marketing targeting GDPR Free: Comunicazione push in-wallet 	|xx |xx |xx
