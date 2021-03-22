@@ -28,7 +28,7 @@ Definite sui ruoli di identità di una persona o un’organizzazione
 |Emergenza Covid19: Certificazione esito test; Certificazione stato vaccinale; Consenso informato; Verifica anonima di esiti/stati|Onboarding web via Dizme wallet |Zero Trust security: accesso alle risorse aziendali in modalità SSI|Gestione manutenzioni e ispezioni: Certificazione tecnici abilitati; Certificazione data-ora e geolocalizzazione |Contract Management: contrattualizzazione digitale end-to-end
 |Gare pubbliche e concorsi: trasparenza e valutazione requisiti partecipanti |Membership e loyalty program via Dizme wallet|eVoting: Gestione del voto remoto (assemblee soci, associazioni, ordini professionali) in modalità elettronica | Provisioning IOT: Certificazione proprietà; Pairing e accesso controllato |
 
-
+Per maggiori dettagli relativi agli scenari d'uso i partecipanti all'hackathon possono visionare le [slide](https://teams.microsoft.com/l/file/0E7CFA45-698D-4337-9A96-C2FBC5E57ED6?tenantId=9f152cda-ffaa-4335-9465-5c1b47d649cd&fileType=pdf&objectUrl=https%3A%2F%2Fgrowitupitaly.sharepoint.com%2Fsites%2FThisismeHackathon_21%2FDocumenti%20condivisi%2FGeneral%2FKickOff%2FHackathon21%20Kickoff_final.pdf&baseUrl=https%3A%2F%2Fgrowitupitaly.sharepoint.com%2Fsites%2FThisismeHackathon_21&serviceName=teams&threadId=19:d992dd77f6984949821687c80fea0eeb@thread.tacv2&groupId=a5a7bdb4-2b08-4f14-9c50-6a1aaee22825) presentate al kickoff
  			
 
 ## LA TECNOLOGIA 
@@ -59,4 +59,4 @@ Algorand mette a disposizione:
 4.	SDK Python: gestione su back-end Python di creazione account, scrittura e firma transazioni, query dati in blockchain
 
 ### Fabrick API
-
+API di integrazione con Fabrick Platform and Fabrick Pass
