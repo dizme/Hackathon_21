@@ -1,0 +1,71 @@
+<html>
+<head>
+<!-- use this template to prepare your project form for This is Me Hackathon_21-->
+<title>Challenge G2C: covid green pass</title>
+  <!-- Provide a brief description of the solution -->
+<meta name="description" content="The solution, implemented by Amlet team by Mopso, provides a digital onboarding with customer due diligence in the banking and financial sectors">
+</head>
+<h1>Amlet Care</h1>
+  <b>Challenge G2C</b>
+  <u>Use case: covid green pass</u>
+  <br/>
+<i>a use case for the Digital Green certificate proposed by the European Commission (or similar initiatives).</i>
+    <br/>
+<img src="images/amlet-logo.jpg" alt="Amlet CDD solution">
+
+<br/>
+<h1>Documentation</h1>
+<ul>
+<li><a href="deck.pdf">Amlet Care presentation</a></li>
+<li><a href="https://youtu.be/Im6Li2dc2gU">SafeTogether Shielding use case presentation and live demo (recorded at  Covidcreds.org),</a></li>
+<li><a href="https://github.com/g0v-it/safetogether-shielding">SafetTogether Shielding open source repository</a>
+</ul>
+
+<h1>Use case description</h1>
+
+<p>
+We address the G2C challenge, proposing a decentralized solution for the implementation of the so-called “Digital green certificate” proposed by the European Commission, or of any other similar initiative conceived to reduce the spreading of the Covid-19.  Following the Digital green certificate, we are able to transform in verifiable credentials these information about the holder:
+</p>
+<ul>
+<li>having been vaccinated against COVID-19;</li>
+<li>having received a negative test result;</li>
+<li>having recovered from COVID-19.</li>
+</ul>
+<p>Amlet Care consists of two parts working in close connection:</p>
+
+<ol>
+<li>the Amlet web interface;</li>
+<li>the Dizme Application.</li>
+</ol>
+
+<p>The Amlet Care solution enables the commercial-grade implementation of SafeTogether Shielding use case  developed by our team and presented at CovidCreds.org initiative. Our system supports the management of a “buffer” with immune persons, according to the proposal of Prof. Udi Shapiro from the Weizmann Institute.  Amelt Care supports staff for high-risk categories, it enables to verify directly the truthfulness and validity of the certificate, avoiding the risk of fraud.
+
+<h1>How we built it</h1>
+<p>
+Amlet web interface is devoted to collect and verify personal information. The citizen authenticates herself using Dizme identity data, then Amlet web interface uses dynamic forms to ask the citizen which information about her health status she wants to transform in verifiable credentials. It then asks for some paper documentation to be uploaded, usually a vaccination certificate or the result of a swab, in a pdf form. The certificates are checked in order to avoid frauds (and verifying they concern the right person), then OCR software extracts all the needed information. This information is therefore translated into verifiable credentials and sent to the Dizme app. Every time the citizen needs to prove her health status, she will just scan a qrcode, to open an encrypted, p2p channel, with the verifier (being it a policeman, a hostess, a restaurateur, depending on the country's policy). The transmission of the verifiable credentials will take just a few seconds, making health checks almost instantaneous and allowing safe travels or safe events’ attending.
+</p>
+
+<h1>About Amlet team</h1>
+<p>
+<b>Andrea Danielli</b>, CEO and founder, 10 yrs experience as AML analyst at the Italian Banking Authority (Banca d'Italia) with on-site and off-site inspection practice
+</p>
+<p>
+<b>Enrico Fagnoni</b>, CTO and founder, an experienced entrepreneur, and the founder of LinkedData.Center; he is an expert of semantic web technologies and AI.
+</p>
+<p>
+<b>Leonardo Longhi</b>, full stack developer, graduated from the Politecnico of Milano. He has been working with LinkedData.Center and Enrico for over three years with whom he has formed a solid professional relationship. He specializes in algorithms and APIs.  He helps Enrico in modelling A.I. solutions.
+</p>
+<p>
+<b>Mohd Ehtesham Miah</b>, full stack developer, graduated from the Politecnico di Milano. He has been working with LinkedData.Center and Enrico for over three years with whom he has formed a solid professional relationship. He specializes in data visualization architectures and technologies with particular reference to Linked Data, 3D and augmented reality. He helps Enrico in complex system architecture design.
+</p>
+<p>
+<b>Yassine Ouahidi</b>, full stack developer, graduated from the Politecnico di Milano. He has been working with LinkedData.Center and Enrico for over three years with whom he has formed a solid professional relationship. He is specialized in the management of linked data and open data. He is the LinkedData.Center contact point in the IBM Hyper Protect Accelerator for Cloud Issues.
+</p>
+
+
+<h1>Market approach and follow up</h1>
+<i>Amlet a ready-to-go SSI service provided by <a href="https://mopso.eu/" >Mopso</a></i>. <br/>
+<p><i>Updates and feedbacks: <a href="mailto:andrea@mopso.it">Andrea Danielli</a></i></p>
+
+</body>
+</html>
